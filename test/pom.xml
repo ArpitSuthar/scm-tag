@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arpit.test</groupId>
+  <artifactId>scm-test</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>scm-tag</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-plugin</artifactId>
+        <version>1.9.4</version>
+        <configuration>
+          <tag>Test1</tag>
+          <message>Test1</message>
+          <includes>**/pom.xml</includes>
+          <pushChanges>true</pushChanges>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+  <scm>
+    <url>https://github.com/ArpitSuthar/scm-tag</url>
+    <connection>scm:git:git://github.com/ArpitSuthar/scm-tag.git</connection>
+    <developerConnection>scm:git:git@github.com:ArpitSuthar/scm-tag.git</developerConnection>
+  </scm>
+</project>
