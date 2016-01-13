@@ -13,4 +13,4 @@ do
     git add $file
 done
 
-git commit -m "Updated POM Versions"
+#git commit -m "Updated POM Versions"
