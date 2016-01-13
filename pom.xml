@@ -14,8 +14,8 @@
         <artifactId>maven-scm-plugin</artifactId>
         <version>1.9.4</version>
         <configuration>
-          <tag>Test3</tag>
-          <message>Test3</message>
+          <tag>Test4</tag>
+          <message>Test4</message>
         </configuration>
       </plugin>
     </plugins>
