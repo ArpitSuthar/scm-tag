@@ -14,10 +14,8 @@
         <artifactId>maven-scm-plugin</artifactId>
         <version>1.9.4</version>
         <configuration>
-          <tag>Test1</tag>
-          <message>Test1</message>
-          <includes>**/pom.xml</includes>
-          <pushChanges>true</pushChanges>
+          <tag>Test3</tag>
+          <message>Test3</message>
         </configuration>
       </plugin>
     </plugins>
@@ -26,7 +24,7 @@
 
   <scm>
     <url>https://github.com/ArpitSuthar/scm-tag</url>
-    <connection>scm:git:git://github.com/ArpitSuthar/scm-tag.git</connection>
+    <connection>scm:git:git@github.com:ArpitSuthar/scm-tag.git</connection>
     <developerConnection>scm:git:git@github.com:ArpitSuthar/scm-tag.git</developerConnection>
   </scm>
 </project>
