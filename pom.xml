@@ -14,13 +14,15 @@
         <artifactId>maven-scm-plugin</artifactId>
         <version>1.9.4</version>
         <configuration>
-          <tag>${project.version}</tag>
-          <message>Test</message>
+          <tag>Test1</tag>
+          <message>Test1</message>
           <includes>**/pom.xml</includes>
+          <pushChanges>true</pushChanges>
         </configuration>
       </plugin>
     </plugins>
   </build>
+
 
   <scm>
     <url>https://github.com/ArpitSuthar/scm-tag</url>
